@@ -1,0 +1,14 @@
+echo "Get rid of the Hyper-V  VSS drivers and modprobe rules"
+
+
+rm -rf  /lib/modules/$(uname -r)/extra/hv_snapshot.ko
+
+
+echo "Create and install initramfs without Hyper-V drivers"
+
+rm -f "initrd-$(uname -r).img"
+
+dracut --force  "initramfs-$(uname -r).img" $(uname -r)
+
+cp -f "initramfs-$(uname -r).img" /boot/"initramfs-$(uname -r).img"
+
