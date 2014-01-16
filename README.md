@@ -12,6 +12,7 @@ What distributions are supported?
 ---------------------------------
 
 As of now we support the following two distributions:
+
 a) RHEL 5.9
 b) RHEL 6.4
 
