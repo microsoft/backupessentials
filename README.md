@@ -13,8 +13,8 @@ What distributions are supported?
 
 As of now we support the following two distributions:
 
-a) RHEL 5.9
-b) RHEL 6.4
+a) RHEL 5.9<br>
+b) RHEL 6.4<br>
 
 What Windows Server version will this run on?
 ---------------------------------------------
