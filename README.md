@@ -97,3 +97,6 @@ following steps:
 # reboot
 ```
 
+Feedback
+--------
+Customer can provide feedback through Linux Integration Services for Microsoft Hyper-V forum located at http://social.technet.microsoft.com/Forums/windowsserver/en-us/home?forum=linuxintegrationservices
