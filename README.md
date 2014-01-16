@@ -69,9 +69,11 @@ command:
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel6.4/rpm/
 ```
 
-* After changing your directory appropriately, run install.sh and reboot the system.
+* After changing your directory appropriately, run install.sh and reboot the 
+* virtual machine.
 ```
 # ./install.sh
+# reboot
 ```
 
 Uninstallation
@@ -90,8 +92,10 @@ following steps:
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel6.4/rpm/
 ```
 
-* After changing your directory appropriately, run uninstall.sh and reboot the system.
+* After changing your directory appropriately, run uninstall.sh and reboot the 
+* virtual machine.
 ```
 # ./uninstall.sh
+# reboot
 ```
 
