@@ -2,7 +2,6 @@ Run the script ./install.sh as a root user to build and install
 Hyper-V backup components for a RHEL6.4 installation. Please reboot
 the virtual machine to finish installing the backup components.
 
-
 To uninstall the Hyper-V backup components, run the script
 ./uninstall.sh as root. Please reboot the virtual machine to 
 finish uninstalling the backup components.
