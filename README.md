@@ -26,20 +26,20 @@ Installation
 This section describes how you may install the Hyper-V backup 
 components for different distributions.<br>
 
-1. Please use the following instructions for RHEL 5.9:
+a) Please use the following instructions for RHEL 5.9:
 
-1.1 Download the RHEL 5.9 installation script and the corresponding
+Download the RHEL 5.9 installation script and the corresponding
 RPMs as follows:
 curl -l
 
-1.2 Run the install.sh script as follows:
+Run the install.sh script as follows:
 ./install.sh
 
-2. Please use the following instructions for RHEL 6.4:
+b) Please use the following instructions for RHEL 6.4:
 
-2.1 Download the RHEL 5.9 installation script and the corresponding
+Download the RHEL 5.9 installation script and the corresponding
 RPMs as follows:
 curl -l
 
-2.2 Run the install.sh script as follows:
+Run the install.sh script as follows:
 ./install.sh
