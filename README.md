@@ -9,14 +9,14 @@ distributions, we decided to deliver the backup feature through
 the RPM installables in this repository.
 
 What distributions are supported?
-=================================
+---------------------------------
 
 As of now we support the following two distributions:
 a) RHEL 5.9
 b) RHEL 6.4
 
 What Windows Server version will this run on?
-=============================================
+---------------------------------------------
 The Hyper-V backup feature is only present in Windows Server 2012 R2 
 release and its derivatives.
 
