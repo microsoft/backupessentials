@@ -1,5 +1,5 @@
-Hyper-V BackupEssentials
-========================
+Hyper-V Backup Essentials
+=========================
 
 This repository contains installable binaries for Hyper-V backup 
 components for certain Linux distributions. Since the Hyper-V backup
@@ -13,8 +13,8 @@ What distributions are supported?
 
 As of now we support the following distributions:
 
-a) RHEL 5.9<br>
-b) RHEL 6.4<br>
+* RHEL 5.9
+* RHEL 6.4
 
 What Windows Server version will this run on?
 ---------------------------------------------
@@ -43,20 +43,33 @@ Installation
 This section describes how you may install the Hyper-V backup 
 components for different distributions.<br>
 
-a) For RHEL 5.9:
+* First of all download the Hyper-V backup components using the following
+command:
+```
+# curl -L -o backupessentials.tar.gz https://github.com/LIS/backupessentials/tarball/master
+```
 
-Download the RHEL 5.9 installation script and the corresponding
-RPMs as follows:
-curl -l
+* Next untar the download tar file using the following command:
+```
+# tar -xvzf backupessentials.tar.gz
+```
 
-Run the install.sh script as follows:
-./install.sh
+* After untar operatio, you should see a folder similar to the following:
+```
+# drwxrwxr-x. 3 root root   4096 Jan 15 20:58 LIS-backupessentials-f5f542e
+```
 
-b) For RHEL 6.4:
+* For RHEL 5.9, change directory as follows:
+```
+# cd LIS-backupessentials-f5f542e/hv/hv-rhel5.9/rpm/
+```
 
-Download the RHEL 5.9 installation script and the corresponding
-RPMs as follows:
-curl -l
+* For RHEL 6.4, change directory as follows:
+```
+# cd LIS-backupessentials-f5f542e/hv/hv-rhel6.4/rpm/
+```
 
-Run the install.sh script as follows:
-./install.sh
+* After changing your directory appropriately, run install.sh and reboot the system.
+```
+# ./install.sh
+```
