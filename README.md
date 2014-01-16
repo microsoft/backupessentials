@@ -77,7 +77,9 @@ command:
 Uninstallation
 --------------
 To uninstall Hyper-V backup components, switch to the directory corresponding
-to your distribution as follows:
+to your distribution and run the uninstall.sh script as outlined in the 
+following steps:
+
 * For RHEL 5.9, change directory as follows:
 ```
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel5.9/rpm/
