@@ -33,6 +33,11 @@ provides backup components for RHEL 5.5-5.8/6.0-6.3. Distributions
 other than these require Hyper-V backup essentials for utilizing the
 Hyper-V backup feature.
 
+Please refer to the feature maps mentioned in the following page
+to discover Hyper-V backup feature availability for your distribution:
+
+http://technet.microsoft.com/en-us/library/dn531030.aspx
+
 Installation
 ------------
 This section describes how you may install the Hyper-V backup 
