@@ -1,9 +1,24 @@
-After unpacking the tar file; as root:
+Please use the following steps to compile and install the Hyper-V backup 
+components in a RHEL 5.9 virtual machine:
 
-	Execute the script ./rhel5-hv-driver-install to build and install
-	Hyper-V drivers on a rhel5.x installation. Once the script completes,
-	reboot the machine to bringup RHEL5.X enlightened on Hyper-V.
+a) Run the script vss-hv-driver-install as a root user to build 
+and install the Hyper-V backup driver on a RHEL 5.9 virtual machine.
+# ./vss-hv-driver-install
 
-	To uninstall the Hyper-V drivers, execute the script
-	./rhel5-hv-driver-uninstall. Once the script completes, reboot the machine
-	to bringup RHEL5 in fully emulated mode.
+b) Once the driver is installed, change directory to tools/ directory 
+and compile the Hyper-V backup daemon as follows:
+# gcc –o hv_vss_daemon hv_vss_daemon.c
+
+c) Copy the Hyper-V backup daemon in the init.d directory of your RHEL 5.9 installation to start it
+at boot time by default.
+
+Please use the following steps to uninstall the Hyper-V backup components.
+
+a) Run the following script:
+
+# ./vss-hv-driver-uninstall
+
+Once the script completes, reboot the machine
+to bringup RHEL5 without Hyper-V backup driver. 
+
+b) Remove the Hyper-V backup daemon from init.d directory. 
