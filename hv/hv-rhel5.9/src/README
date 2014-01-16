@@ -18,7 +18,7 @@ a) Run the following script:
 
 # ./vss-hv-driver-uninstall
 
-Once the script completes, reboot the machine
-to bringup RHEL5 without Hyper-V backup driver. 
+Once the script completes, reboot the virtual machine to 
+completely uninstall the Hyper-V backup driver. 
 
 b) Remove the Hyper-V backup daemon from init.d directory. 
