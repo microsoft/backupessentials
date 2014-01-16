@@ -30,12 +30,12 @@ components for different distributions.
 a) Download the RHEL 5.9 installation script and the corresponding
 RPMs as follows:
 
-b) Install the RHEL 5.9 backup components as follows:
+b) Run the install.sh script as follows:
 ./install.sh
 
 1. Please use the following instructions for RHEL 6.4:
 a) Download the RHEL 5.9 installation script and the corresponding
 RPMs as follows:
 
-b) Install the RHEL 5.9 backup components as follows:
+b) Run the install.sh script as follows:
 ./install.sh
