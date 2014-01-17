@@ -11,7 +11,7 @@ the RPM installables in this repository.
 What distributions are supported?
 ---------------------------------
 
-As of now Hyper-V Backup Essentials are avaiable for the following 
+As of now Hyper-V Backup Essentials are available for the following 
 distributions:
 
 * Red Hat Enterprise Linux (RHEL)/CentOS 5.9
