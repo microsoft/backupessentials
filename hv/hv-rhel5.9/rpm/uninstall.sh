@@ -1,6 +1,6 @@
 ################################################################################
 #
-# This script is to automate Uninstallaing Hyper-v Backup Essentials
+# This script is to automate Uninstallaing Hyper-V Backup Essentials
 #
 ################################################################################
 
@@ -30,10 +30,10 @@ if [ "$kmodrpm" != "" ] && [ "$msrpm" != ""  ]; then
               rpm -e --nodeps $kmodrpm
               msexit=$?
               if [ "$msexit" != 0 ]; then
-                     echo "Uninstallaing Hyper-v Backup Essentials failed, Exiting."
+                     echo "Uninstallaing Hyper-V Backup Essentials failed, Exiting."
                      exit 1;
               else
-                     echo "Hyper-v Backup Essentials has been uninstalled. Please reboot your system."
+                     echo "Hyper-v Backup Essentials have been uninstalled. Please reboot your system."
               fi
        else
               echo "Kmod RPM uninstallation failed, Exiting."
