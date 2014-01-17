@@ -11,7 +11,8 @@ the RPM installables in this repository.
 What distributions are supported?
 ---------------------------------
 
-As of now we support the following distributions:
+As of now Hyper-V Backup Essentials are avaiable for the following 
+distributions:
 
 * RHEL 5.9
 * RHEL 6.4
@@ -30,7 +31,7 @@ or through an LIS release such as LIS 3.5.
 Newer distributions starting SLES 11 SP3, Ubuntu 13.10 and RHEL 7
 come prepackaged with Hyper-V backup components. Furthermore, LIS 3.5
 provides backup components for RHEL 5.5-5.8/6.0-6.3. Distributions
-other than these require Hyper-V backup essentials for utilizing the
+other than these may require Hyper-V backup essentials for utilizing the
 Hyper-V backup feature.
 
 Please refer to the feature maps mentioned in the following page
