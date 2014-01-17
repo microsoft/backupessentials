@@ -3,7 +3,7 @@ Hyper-V Backup Essentials
 
 This repository contains installable binaries for Hyper-V backup 
 components for certain Linux distributions. The Hyper-V backup 
-components allow a system adminitrator to perform uninterrupted
+components allow a system administrator to perform uninterrupted
 backup of a live Linux virtual machine. Since the Hyper-V backup
 feature was only completed in late 2013, we could not include it
 in several distributions that existed prior to that date. For such
