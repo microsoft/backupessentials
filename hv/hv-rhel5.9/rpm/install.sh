@@ -23,14 +23,14 @@ fi
 #Making sure both rpms are present
 
 if [ "$kmodrpm" != "" ] && [ "$msrpm" != ""  ]; then
-       echo "Installaing Hyper-v Backup Essentials"
+       echo "Installing Hyper-v Backup Essentials"
        rpm -ivh --nodeps $kmodrpm
        kmodexit=$?
        if [ "$kmodexit" == 0 ]; then
               rpm -ivh --nodeps $msrpm
               msexit=$?
               if [ "$msexit" != 0 ]; then
-                     echo "Installaing Hyper-V Backup Essentials failed, Exiting."
+                     echo "Installing Hyper-V Backup Essentials failed, Exiting."
                      exit 1;
               else
                      echo "Hyper-V Backup Essentials have been installed. Please reboot your system."
