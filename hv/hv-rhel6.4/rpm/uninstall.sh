@@ -1,6 +1,6 @@
 ################################################################################
 #
-# This script is to automate installation of VSS of Linux Integration Services for  Microsoft Hyper-V
+# This script is to automate Uninstallation of Hyper-v Backup Essentials
 #
 ################################################################################
 
@@ -23,17 +23,17 @@ fi
 #Making sure both rpms are present
 
 if [ "$kmodrpm" != "" ] && [ "$msrpm" != ""  ]; then
-       echo "UnInstalling the VSS of Linux Integration Services for Microsoft Hyper-V..."
+       echo "Uninstalling the  Hyper-v Backup Essentials"
        rpm -e --nodeps $msrpm
        kmodexit=$?
        if [ "$kmodexit" == 0 ]; then
               rpm -e --nodeps $kmodrpm
               msexit=$?
               if [ "$msexit" != 0 ]; then
-                     echo "Microsoft-Hyper-V VSS RPM Uninstallation failed, Exiting."
+                     echo "Hyper-v Backup Essentials Uninstallation failed, Exiting."
                      exit 1;
               else
-                     echo " VSS of Linux Integration Services for Hyper-V has been uninstalled. Please reboot your system."
+                     echo " Hyper-v Backup Essentials has been uninstalled. Please reboot your system."
               fi
        else
               echo "Kmod RPM uninstallation failed, Exiting."
