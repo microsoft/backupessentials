@@ -49,12 +49,12 @@ command:
 # curl -L -o backupessentials.tar.gz https://github.com/LIS/backupessentials/tarball/master
 ```
 
-* Next untar the download tar file using the following command:
+* Next untar the downloaded tar file using the following command:
 ```
 # tar -xvzf backupessentials.tar.gz
 ```
 
-* After untar operatio, you should see a folder similar to the following:
+* After untar operation, you should see a folder similar to the following:
 ```
 # drwxrwxr-x. 3 root root   4096 Jan 15 20:58 LIS-backupessentials-f5f542e
 ```
