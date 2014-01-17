@@ -33,7 +33,7 @@ if [ "$kmodrpm" != "" ] && [ "$msrpm" != ""  ]; then
                      echo "Installaing Hyper-V Backup Essentials failed, Exiting."
                      exit 1;
               else
-                     echo "Hyper-v Backup Essentials have been installed. Please reboot your system."
+                     echo "Hyper-V Backup Essentials have been installed. Please reboot your system."
               fi
        else
               echo "Kmod RPM installation failed, Exiting."
