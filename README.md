@@ -60,12 +60,12 @@ command:
 # drwxrwxr-x. 3 root root   4096 Jan 15 20:58 LIS-backupessentials-f5f542e
 ```
 
-* For RHEL 5.9, change directory as follows:
+* For RHEL/CentOS 5.9, change directory as follows:
 ```
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel5.9/rpm/
 ```
 
-* For RHEL 6.4, change directory as follows:
+* For RHEL/CentOS 6.4, change directory as follows:
 ```
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel6.4/rpm/
 ```
@@ -82,12 +82,12 @@ To uninstall Hyper-V backup components, switch to the directory corresponding
 to your distribution and run the uninstall.sh script as outlined in the 
 following steps:
 
-* For RHEL 5.9, change directory as follows:
+* For RHEL/CentOS 5.9, change directory as follows:
 ```
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel5.9/rpm/
 ```
 
-* For RHEL 6.4, change directory as follows:
+* For RHEL/CentOS 6.4, change directory as follows:
 ```
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel6.4/rpm/
 ```
