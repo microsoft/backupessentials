@@ -14,8 +14,8 @@ What distributions are supported?
 As of now Hyper-V Backup Essentials are avaiable for the following 
 distributions:
 
-* Red Hat Enterprise Linux (RHEL) 5.9
-* RHEL 6.4
+* Red Hat Enterprise Linux (RHEL)/CentOS 5.9
+* RHEL/CentOS 6.4
 
 What Windows Server version will this run on?
 ---------------------------------------------
