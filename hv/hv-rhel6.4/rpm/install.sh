@@ -1,6 +1,6 @@
 ################################################################################
 #
-# This script is to automate installation of VSS of Linux Integration Services for  Microsoft Hyper-V
+# This script is to automate Installaing Hyper-v Backup Essentials
 #
 ################################################################################
 
@@ -23,17 +23,17 @@ fi
 #Making sure both rpms are present
 
 if [ "$kmodrpm" != "" ] && [ "$msrpm" != ""  ]; then
-       echo "Installing the VSS of Linux Integration Services for Microsoft Hyper-V..."
+       echo "Installaing Hyper-v Backup Essentials"
        rpm -ivh --nodeps $kmodrpm
        kmodexit=$?
        if [ "$kmodexit" == 0 ]; then
               rpm -ivh --nodeps $msrpm
               msexit=$?
               if [ "$msexit" != 0 ]; then
-                     echo "Microsoft-Hyper-V VSS RPM installation failed, Exiting."
+                     echo "Installaing Hyper-v Backup Essentials failed, Exiting."
                      exit 1;
               else
-                     echo " VSS of Linux Integration Services for Hyper-V has been installed. Please reboot your system."
+                     echo "Hyper-v Backup Essentials has been installed. Please reboot your system."
               fi
        else
               echo "Kmod RPM installation failed, Exiting."
