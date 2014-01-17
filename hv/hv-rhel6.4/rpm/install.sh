@@ -1,6 +1,6 @@
 ################################################################################
 #
-# This script is to automate Installaing Hyper-v Backup Essentials
+# This script is to automate Installaing Hyper-V Backup Essentials
 #
 ################################################################################
 
@@ -30,10 +30,10 @@ if [ "$kmodrpm" != "" ] && [ "$msrpm" != ""  ]; then
               rpm -ivh --nodeps $msrpm
               msexit=$?
               if [ "$msexit" != 0 ]; then
-                     echo "Installaing Hyper-v Backup Essentials failed, Exiting."
+                     echo "Installaing Hyper-V Backup Essentials failed, Exiting."
                      exit 1;
               else
-                     echo "Hyper-v Backup Essentials has been installed. Please reboot your system."
+                     echo "Hyper-v Backup Essentials have been installed. Please reboot your system."
               fi
        else
               echo "Kmod RPM installation failed, Exiting."
