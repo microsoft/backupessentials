@@ -23,7 +23,7 @@ fi
 #Making sure both rpms are present
 
 if [ "$kmodrpm" != "" ] && [ "$msrpm" != ""  ]; then
-       echo "UnInstalling  Hyper-v Backup Essentials"
+       echo "UnInstalling  Hyper-V Backup Essentials"
        rpm -e --nodeps $msrpm
        kmodexit=$?
        if [ "$kmodexit" == 0 ]; then
