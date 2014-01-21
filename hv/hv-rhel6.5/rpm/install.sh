@@ -1,6 +1,6 @@
 ################################################################################
 #
-# This script is to automate installation of VSS of Linux Integration Services for  Microsoft Hyper-V
+# This script is to automate Installaing Hyper-V Backup Essentials
 #
 ################################################################################
 
@@ -21,14 +21,14 @@ fi
 #Making sure both rpms are present
 
 if [ "$msrpm" != ""  ]; then
-       echo "Installing the VSS of Linux Integration Services for Microsoft Hyper-V..."
+       echo "Installing Hyper-v Backup Essentials"
               rpm -ivh --nodeps $msrpm
               msexit=$?
               if [ "$msexit" != 0 ]; then
-                     echo "Microsoft-Hyper-V VSS RPM installation failed, Exiting."
+                     echo "Installing Hyper-V Backup Essentials failed, Exiting."
                      exit 1;
               else
-                     echo " VSS of Linux Integration Services for Hyper-V has been installed. Please reboot your system."
+                     echo "Hyper-V Backup Essentials have been installed. Please reboot your system."
               fi
 else 
        echo "RPM's are missing"
