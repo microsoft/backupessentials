@@ -25,7 +25,7 @@ if [ "$msrpm" != ""  ]; then
               rpm -e --nodeps $msrpm
               msexit=$?
               if [ "$msexit" != 0 ]; then
-                      echo "Uninstallaing Hyper-V Backup Essentials failed, Exiting."
+                      echo "Uninstalling Hyper-V Backup Essentials failed, Exiting."
                      exit 1;
               else
                      echo "Hyper-V Backup Essentials have been uninstalled. Please reboot your system."
