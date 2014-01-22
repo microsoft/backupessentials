@@ -72,6 +72,11 @@ command:
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel6.4/rpm/
 ```
 
+* For RHEL/CentOS 6.5, change directory as follows:
+```
+# cd LIS-backupessentials-f5f542e/hv/hv-rhel6.5/rpm/
+```
+
 * After changing your directory appropriately, run install.sh and reboot the virtual machine.
 ```
 # ./install.sh
@@ -92,6 +97,11 @@ following steps:
 * For RHEL/CentOS 6.4, change directory as follows:
 ```
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel6.4/rpm/
+```
+
+* For RHEL/CentOS 6.5, change directory as follows:
+```
+# cd LIS-backupessentials-f5f542e/hv/hv-rhel6.5/rpm/
 ```
 
 * After changing your directory appropriately, run uninstall.sh and reboot the virtual machine.
