@@ -49,7 +49,7 @@ components for different distributions.<br>
 * First of all download the Hyper-V backup components using the following
 command:
 ```
-# curl -L -o backupessentials.tar.gz https://github.com/LIS/backupessentials/tarball/master
+# curl -L -o backupessentials.tar.gz https://github.com/LIS/backupessentials/tarball/1.0
 ```
 
 * Next untar the downloaded tar file using the following command:
