@@ -111,6 +111,6 @@ following steps:
 # reboot
 ```
 
-Feedback
---------
-Customer can provide feedback through Linux Integration Services for Microsoft Hyper-V forum located at http://social.technet.microsoft.com/Forums/windowsserver/en-us/home?forum=linuxintegrationservices
+Customer support
+----------------
+The Hyper-V Backup Essentials are developed and maintained by Microsoft's Linux Integration Services team. Customers can obtain formal support through all standard Microsoft support channels. Furthermore, support is also available through the Linux Integration Services for Microsoft Hyper-V forum located at http://social.technet.microsoft.com/Forums/windowsserver/en-us/home?forum=linuxintegrationservices
