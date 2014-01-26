@@ -18,6 +18,7 @@ distributions:
 
 * Red Hat Enterprise Linux (RHEL)/CentOS 5.9
 * RHEL/CentOS 6.4
+* RHEL/CentOS 6.5
 
 What Windows Server version will this run on?
 ---------------------------------------------
