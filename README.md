@@ -18,7 +18,7 @@ distributions:
 
 * Red Hat Enterprise Linux (RHEL)/CentOS 5.9
 * RHEL/CentOS 6.4
-* RHEL/CentOS 6.5
+* RHEL/CentOS 6.5/Oracle UEK3 QU2
 
 What Windows Server version will this run on?
 ---------------------------------------------
@@ -73,7 +73,7 @@ command:
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel6.4/rpm/
 ```
 
-* For RHEL/CentOS 6.5, change directory as follows:
+* For RHEL/CentOS 6.5//Oracle UEK3 QU2, change directory as follows:
 ```
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel6.5/rpm/
 ```
@@ -100,7 +100,7 @@ following steps:
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel6.4/rpm/
 ```
 
-* For RHEL/CentOS 6.5, change directory as follows:
+* For RHEL/CentOS 6.5/Oracle UEK3 QU2, change directory as follows:
 ```
 # cd LIS-backupessentials-f5f542e/hv/hv-rhel6.5/rpm/
 ```
